@@ -7,8 +7,6 @@ info:
     name: Sample orders Contact data
     url: 'https://developer.mazinger.com'
     email: developer@mazinger.com
-servers:
-- url: https://orders.sock-shop
 paths:
   "/orders":
     post:
@@ -24,12 +22,6 @@ paths:
             schema:
               $ref: ''
             example:
-              address:
-                city: Glasgow
-                country: United Kingdom
-                number: "246"
-                postcode: G67 3DL
-                street: Whitelees Road
               card:
                 ccv: "958"
                 expires: "08/19"
