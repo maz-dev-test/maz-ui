@@ -1,7 +1,7 @@
 openapi: 3.0.1
 info:
   title: test-18nov-2 Orders API for Mazinger
-  description: Orders Sock Shop API
+  description: Orders Sock Shop API breaking chaneges
   version: '1.0'
   contact:
     name: Sample orders Contact data
@@ -14,7 +14,7 @@ paths:
       - orders
       summary: "Create Orders"
       description: "Creates an order for a customer"
-      operationId: ba3f307a-1c68-402c-a4d7-8af9fdbd5f33
+      operationId: ba3f307a-1c68-402c-a4d7-8af9fdbd5f33ede
       parameters: []
       requestBody:
         content:
