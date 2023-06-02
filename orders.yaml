@@ -8,7 +8,7 @@ info:
     url: 'https://developer.mazinger.com'
     email: developer@mazinger.com
 paths:
-  "/orders-1":
+  "/orders-changes":
     post:
       tags:
       - orders
